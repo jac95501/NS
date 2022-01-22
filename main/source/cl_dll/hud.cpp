@@ -98,8 +98,8 @@ extern client_sprite_t *GetSpriteList(client_sprite_t *pList, const char *psz, i
 
 extern cvar_t *sensitivity;
 cvar_t *cl_lw = NULL;
-cvar_t* cl_rollangle;
-cvar_t* cl_rollspeed;
+cvar_t* cl_viewrollangle;
+cvar_t* cl_viewrollspeed;
 
 void ShutdownInput (void);
 
